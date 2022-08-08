@@ -84,7 +84,6 @@ public class UploadFile {
                 upload_result.put("msg", "上传文件失败! 服务器端发生异常!");
                 return upload_result;
             }
-
         } else {
             upload_result.put("success", false);
             upload_result.put("msg", "头像上传失败! 未找到指定图片!");
